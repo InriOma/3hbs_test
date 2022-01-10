@@ -25,7 +25,7 @@
 - Asignar al rol de administrador por medio de un seeder, el permiso de view flight, create flight, update flight, delete flight
 - Validar que solo un usuario con rol el administrador pueda ver y crear y editar flights
 
-### Puntos extras: 
+### Puntos extras:
 - Implementar modelo polimórfico de Remarks (libre definición) y relacionar con modelos creados
 
 ## Front
@@ -35,5 +35,14 @@
 - Implementar CRUD de Airlines, consumiendo API de back
 - Implementar CRUD de Flights, consumiendo API de back
 
-### Puntos extras: 
+### Puntos extras:
 - Implementar modelo polimórfico de Remarks y relacionar con modelos creados
+
+
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+npm install
+npm run dev
+
